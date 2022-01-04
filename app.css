@@ -1,0 +1,48 @@
+html{
+    background-color: aliceblue;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 970px;
+    background-image: url(https://cutewallpaper.org/21/gym-backgrounds/Gym-Background-Free-Wallpaper-HD-Collection.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calorie-container{
+    background-color: rgb(49, 134, 134);
+    padding: 30px;
+}
+
+.flex{
+    display: flex;
+}
+
+.textbox{
+    width: 450px;
+    height: 35px;
+    border: none ;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.calculate{
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:peachpuff
+}
+
+.heading{
+    font-family: century;
+    text-align: center;
+}
+
+.labels{
+    font-size: medium;
+    font-family: century;
+}
