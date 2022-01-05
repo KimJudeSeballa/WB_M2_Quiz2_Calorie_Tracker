@@ -1,19 +1,20 @@
-html{
-    background-color: aliceblue;
-}
-
+/*Main Page*/
 .flex-container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 970px;
     background-image: url(https://cutewallpaper.org/21/gym-backgrounds/Gym-Background-Free-Wallpaper-HD-Collection.jpeg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .calorie-container{
-    background-color: rgb(49, 134, 134);
+    border: 2px solid #ffffff;
+    padding: 5px 20px;
     padding: 30px;
+    background: linear-gradient(90deg,#29323c, #485563);
+    color: white;
 }
 
 .flex{
@@ -34,7 +35,10 @@ html{
     width: 100px;
     height: 30px;
     border-radius: 5px;
-    background-color:peachpuff
+    border: 2px solid #ffffff;
+    padding: 5px 20px;
+    color: white;
+    background: linear-gradient(90deg,#29323c, #485563);
 }
 
 .heading{
@@ -45,4 +49,71 @@ html{
 .labels{
     font-size: medium;
     font-family: century;
+}
+
+.er{
+    text-align: center;
+}
+
+/*Calorie Screen*/
+.flex-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 970px;
+    background-image: url(https://i1.wp.com/parlatoscatering.com/wp-content/uploads/2019/04/italian-ingredients.jpg?fit=1500%2C999&ssl=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calorie-screen{
+    background-color: rgb(121, 23, 6);
+    box-shadow: 0 0 20px #eee;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    padding: 5px 20px;
+    
+}
+
+.total{
+    font-size: 50px;
+    text-align: center;
+}
+
+.result{
+    font-family:'Trebuchet MS';
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.calorieBox{
+    border-radius: 8px;
+    margin:50px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    padding: 5px 20px;
+    color: black;
+    
+}
+
+.consumeBtn{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+    border: 2px solid #ffffff;
+    padding: 5px 20px;
+}
+
+.textbox2{
+    width: 450px;
+    height: 35px;
+    border: none ;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 5px;
+
 }
